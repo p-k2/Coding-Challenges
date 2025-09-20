@@ -1,5 +1,5 @@
-import java.util.* ;
 
+//to calculte x^n with miminum time complexity
 public class Power{
 
     public static double myPow(double x , int n){ 
@@ -26,4 +26,5 @@ public class Power{
         int b = -3 ;
         System.out.println(Poweroptimal(a,b) );
     }
+
 }
