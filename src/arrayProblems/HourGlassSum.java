@@ -28,12 +28,6 @@ public class HourGlassSum{
             Arrays.asList(0, 0, 0, 2, 0, 0),
             Arrays.asList(0, 0, 1, 2, 4, 0)
         );
-
-        // Example: print the matrix
-        for (List<Integer> row : arr) {
-            System.out.println(row);
-        }
-
         System.out.println(hourglassSum(arr));
     }
 }

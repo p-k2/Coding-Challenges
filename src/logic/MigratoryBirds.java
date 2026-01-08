@@ -28,18 +28,19 @@ public class MigratoryBirds{
     }
 
     public static void main(String[] args ){
-         List<Integer> ar = new ArrayList<Integer>() ;
-        ar.add(1) ;
-        ar.add(2) ;
-        ar.add(3) ;
-        ar.add(4) ;
-        ar.add(5) ;
-        ar.add(4) ;
-        ar.add(3) ;
-        ar.add(2) ;
-        ar.add(1) ;
-        ar.add(3) ;
-        ar.add(4) ;
+      int[] arr = {1,2,3,4,5,4,3,2,1,3,4};
+         List<Integer> ar = new ArrayList<>() ;
+        ar.addAll(Arrays.asList(arr)) ;
+        // ar.add(2) ;
+        // ar.add(3) ;
+        // ar.add(4) ;
+        // ar.add(5) ;
+        // ar.add(4) ;
+        // ar.add(3) ;
+        // ar.add(2) ;
+        // ar.add(1) ;
+        // ar.add(3) ;
+        // ar.add(4) ;
         System.out.println(migratoryBirds(ar));
 
     }
